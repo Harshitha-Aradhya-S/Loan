@@ -1,0 +1,103 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+   }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+       align-items: center;
+       background-color: white;
+      }
+ 
+.ltitle{
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 5rem;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Poppins', sans-serif ;
+}
+
+.loan_part_row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.loan_part_items{
+    background: white;
+    height: 8rem;
+    width: 10rem;
+    display: flex;
+    gap: 3rem;
+    border: 3px solid grey;
+    border-radius: 3rem;
+    align-items: center;
+    margin: 0rem 0.5rem 0rem 0.5;
+    transition: transform 0.3s ease-in-out;
+} 
+
+.loan_part_items:hover {
+    background-color: black;
+    transform: scale(1.2);
+}
+
+.loan_part_items:hover .item_header {
+    color: white;
+    transform: scale(1.1);
+}
+
+.loan_part_items img{
+    height: 4rem;
+    width: 5rem;
+    display: flexbox;
+    justify-content: center;
+    padding: 0rem 2.5rem 0 2.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.loan_part_items h2{    
+    display: block;
+    font-size: 1rem;
+    align-items:center;
+    text-align: center;
+    color: black;
+    transform-origin: bottom;
+}
+
+@media screen and (max-width: 896px) {
+    .ltitle{
+        padding: 1rem 0rem 1.5rem 0rem;
+        font-size: 2rem;
+        border: 0.5rem;
+        background-color: rebeccapurple;
+    }
+
+    .loan_part_items{
+        height: 5rem;
+        width: 7rem;
+        gap: 1rem;
+        border-radius: 2rem;
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    .loan_part_items img{
+        height: 2rem;
+        width: 2rem;
+        padding: 0rem 2.r em 0rem 2.5rem;
+    } 
+
+    .loan_part_items h2{    
+        border-radius: 20%;
+        font-size: 0.8rem;
+    }
+}
