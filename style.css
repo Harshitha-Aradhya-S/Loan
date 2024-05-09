@@ -36,7 +36,6 @@
     align-items: center;
     text-align: center;
     background-color: rgb(240, 236, 236);
-    padding: 1.5rem;
     border: 1px solid rgb(221, 199, 199);
     border-radius: 1.5rem;
     height: 17rem;
@@ -66,8 +65,7 @@
     align-items:center;
     text-align: center;
     color: black;
-    font-size: 1.5rem;
-    margin: 3rem 0 1rem 0 ; 
+    font-size: 1.5rem; 
     margin: 0rem 0.5rem ;
 }
 
